@@ -22,8 +22,7 @@ for(var x:mp1.entrySet()){
 return w;
     }
    private static Map<Character, Integer> sorted(Map<Character, Integer> mp) {
-
-    List<Map.Entry<Character, Integer>> list = new ArrayList<>(mp.entrySet());
+List<Map.Entry<Character, Integer>> list = new ArrayList<>(mp.entrySet());
     list.sort((a, b) -> b.getValue().compareTo(a.getValue()));
       Map<Character, Integer> sorted = new LinkedHashMap<>();
       for (Map.Entry<Character, Integer> e : list) {
