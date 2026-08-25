@@ -9,5 +9,6 @@ class Solution {
          if(!set.contains(i*k))return i*k;
          i++;
         }
+
     }
 }
