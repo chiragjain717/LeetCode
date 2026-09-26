@@ -4,7 +4,6 @@ class Solution {
         for(int i=0;i<knowledge.size();i++){
             mp.put(knowledge.get(i).get(0),knowledge.get(i).get(1));
         }
-        System.out.println(mp);
         String g="";
         for(int i=0;i<s.length();i++){
             char ch=s.charAt(i);
