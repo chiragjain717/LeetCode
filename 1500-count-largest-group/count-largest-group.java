@@ -1,6 +1,5 @@
 class Solution {
     public int countLargestGroup(int n) {
-        if (n < 10) return n;
 
         Map<Integer, Integer> mp = new HashMap<>();
         int max = 0;
